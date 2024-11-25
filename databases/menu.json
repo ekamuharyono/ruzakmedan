@@ -1,0 +1,22 @@
+[
+  {
+    "nama_product": "Mangga Muda",
+    "image": "./assets/mangga.jpeg",
+    "harga": 15000
+  },
+  {
+    "nama_product": "Jambu",
+    "image": "./assets/jambu.jpg",
+    "harga": 15000
+  },
+  {
+    "nama_product": "Nanas",
+    "image": "./assets/nanas.jpg",
+    "harga": 15000
+  },
+  {
+    "nama_product": "Bengkuang",
+    "image": "./assets/bengkuang.jpeg",
+    "harga": 15000
+  }
+]
