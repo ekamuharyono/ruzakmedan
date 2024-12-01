@@ -1,20 +1,19 @@
 {
-  "functions": {
-    "index.php": {
-      "runtime": "vercel-php@0.7.3"
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.php",
+      "use": "@vercel/php"
     },
-    "checkout.php": {
-      "runtime": "vercel-php@0.7.3"
+    {
+      "src": "databases/menu.json",
+      "use": "@vercel/static"
     }
-  },
+  ],
   "routes": [
     {
       "src": "/(.*)",
       "dest": "/index.php"
-    },
-    {
-      "src": "/checkout",
-      "dest": "/checkout.php"
     }
   ]
 }
