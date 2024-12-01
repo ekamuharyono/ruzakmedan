@@ -1,6 +1,9 @@
 {
   "functions": {
-    "/*.php": {
+    "index.php": {
+      "runtime": "vercel-php@0.7.3"
+    },
+    "checkout.php": {
       "runtime": "vercel-php@0.7.3"
     }
   },
