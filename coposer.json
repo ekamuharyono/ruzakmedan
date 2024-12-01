@@ -1,0 +1,20 @@
+{
+    "name": "myvendor/myproject",
+    "description": "A simple PHP project for Rujak Medan",
+    "type": "project",
+    "require": {
+        "php": ">=7.4", // PHP version requirement
+        "vercel/php": "^0.1", // Example dependency for Vercel
+        "monolog/monolog": "^2.0" // Example dependency for logging
+    },
+    "autoload": {
+        "psr-4": {
+            "MyProject\\": "src/" // Autoload classes in the 'src/' directory with the 'MyProject' namespace
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "echo 'Composer install complete!'"
+        ]
+    }
+}
